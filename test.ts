@@ -10,3 +10,7 @@ let person:{
   age:20,
   hobby:['빵','커피']
 }
+
+foodList.push(100)
+
+person.age='20'
