@@ -16,3 +16,9 @@ function greet(name:string):string{
 //타입 에러
 add("1",2)
 greet(true)
+
+//매개변수 생략 가능 - optional
+function log(message?:string):void{
+  //?? - null, undefined일때 '기본메시지'출력
+  console.log(message ?? '기본메시지')
+}
