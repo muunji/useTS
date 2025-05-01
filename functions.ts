@@ -12,3 +12,7 @@ function isAdult(age:number):boolean{
 function greet(name:string):string{
   return `Hello, ${name}`
 }
+
+//타입 에러
+add("1",2)
+greet(true)
